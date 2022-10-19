@@ -1,5 +1,3 @@
-               /*Backtracking */
-
 public class printAllPermutationOfString {
     public static void printPermn(String str, String permutation) {
         if(str.length() == 0){
