@@ -121,3 +121,111 @@ one operation is computed as f(n) and of another operation as g(n2
 ). Which means first operation running time will increase linearly with the
 increase in n and running time of second operation will increase exponentially when n increases. Similarly the running time of both
 operations will be nearly same if n is significantly small.
+
+
+### Asymptotic Notations
+Following are commonly used asymptotic notations used in calculating running time complexity of an algorithm.
+
+• Ο Notation
+
+• Ω Notation
+
+• θ Notation
+
+Big Oh Notation, Ο
+
+The Ο(n) is the formal way to express the upper bound of an algorithm's running time. It measures the worst case time complexity or longest amount of
+time an algorithm can possibly take to complete. For example, for a function f(n)
+
+Ο(f(n)) = { g(n) : there exists c > 0 and n0 such that g(n) ≤ c.f(n) for all n > n0. }
+
+Big Oh notation is used to simplify functions. For example, we can replace a specific functional equation 7nlogn + n - 1 with Ο(f(nlogn)).
+Consider the scenario as follows:
+
+7nlogn +n - 1 ≤ 7nlogn + n  
+7nlogn +n - 1 ≤ 7nlogn + nlogn  
+for n ≥ 2 so that logn ≥ 1  
+7nlogn +n - 1 ≤ 8nlogn  
+
+It demonstrates that f(n) = 7nlogn + n - 1 is within the range of outout of O(nlogn) using constants c = 8 and n0 = 2.
+
+__Omega Notation__, Ω
+
+The Ω(n) is the formal way to express the lower bound of an algorithm's running time. It measures the best case time complexity or best
+amount of time an algorithm can possibly take to complete.
+
+For example, for a function f(n)
+
+        Ω(f(n)) ≥ { g(n) : there exists c > 0 and n0 such that g(n) ≤ c.f(n) for all n > n0. }
+
+__Theta Notation__, θ
+
+The θ(n) is the formal way to express both the lower bound and upper bound of an algorithm's running time. It is represented as following.
+
+     θ(f(n)) = { g(n) if and only if g(n) = Ο(f(n)) and g(n) = Ω(f(n)) for all n > n0. }    
+
+
+# DSA using Java - Data Structures
+Data Structure is a way to organized data in such a way that it can be used efficiently. Following terms are basic terms of a data structure
+
+__Data Definition__
+
+Data Definition defines a particular data with following characteristics.
+• Atomic − Defition should define a single concept
+
+• Traceable − Definition should be be able to be mapped to some data element.
+
+• Accurate − Definition should be unambiguous.
+
+• Clear and Concise − Definition should be understandable
+
+__Data Object__
+
+Data Object represents an object having a data.
+
+__Data Type__
+
+Data type is way to classify various types of data such as integer, string etc. which determines the values that can be used with the
+corresponding type of data, the type of operations that can be performed on the corresponding type of data. Data type of two types −
+
+• _Built-in Data Type_
+
+•_Derived Data Type_
+
+___Built-in Data Type___
+
+Those data types for which a language has built-in support are known as Built-in Data types. For example, most of the languages provides
+following built-in data types.
+
+• Integers
+
+• Boolean (true, false)
+
+• Floating (Decimal numbers)
+
+• Character and Strings
+
+___Derived Data Type___
+
+Those data types which are implementation independent as they can be implemented in one or other way are known as derived data types.   
+These data types are normally built by combination of primary or built-in data types and associated operations on them. For example −
+
+• List
+
+• Array
+
+• Stack
+
+• Queue
+
+
+ ## DSA using Java - Arrays
+
+__Array Basics__    
+Array is a container which can hold fix number of items and these items should be of same type. Most of the datastructure make use of array
+to implement their algorithms. Following are important terms to understand the concepts of Array
+
+____Element____ − Each item stored in an array is called an element.
+
+• ____Index____ − Each location of an element in an array has a numerical index which is used to identify the element.
+
