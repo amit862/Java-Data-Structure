@@ -394,4 +394,9 @@ Deletion is a two step process:
 
 ![App Screenshot](https://www.tutorialspoint.com/dsa_using_java/images/dsa_linkedlist_deletefirst.jpg)
 
+## Notes
+
+[Quick Notes](https://drive.google.com/file/d/1ixROI_D8zQNAEK0exvy39K_JerBvT7kP/view?usp=sharing)
+
+
 
