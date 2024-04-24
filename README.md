@@ -279,12 +279,12 @@ __Linked List Representation__ :
 ![App Screenshot](https://user-images.githubusercontent.com/1555022/34961473-1c9daf82-f9f4-11e7-90f2-45715b015edf.jpg)
 
 
-As per above shown illustration, following are the important points to be considered.
+As per the above shown illustration, the following are the important points to be considered.
 
-• LinkedList contains an link element called first.  
+• LinkedList contains a link element called first.  
 • Each Link carries a data field(s) and a Link Field called next.  
 • Each Link is linked with its next link using its next link.  
-• Last Link carries a Link as null to mark the end of the list.
+• The Last Link carries a Link as null to mark the end of the list.
 
 __Types of Linked List__
 
