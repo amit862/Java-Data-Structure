@@ -300,12 +300,12 @@ Following are the basic operations supported by a list.
 • __Insertion__ − add an element at the beginning of the list.  
 • __Deletion__ − delete an element at the beginning of the list.  
 • __Display__ − displaying complete list.  
-• __Search__ − search an element using given key.  
-• __Delete__ − delete an element using given key.
+• __Search__ − search an element using a given key.  
+• __Delete__ − delete an element using a given key.
 
 __Insertion Operation__
 
-Insertion is a three step process:
+Insertion is a three-step process:
 1. Create a new Link with provided data.
 2. Point New Link to old First Link.
 3. Point First Link to this New Link
