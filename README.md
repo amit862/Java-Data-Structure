@@ -46,7 +46,7 @@ case time is ƒ(n) then this operation will not take time more than ƒ(n) time w
 • Average Case − This is the scenario depicting the average execution time of an operation of a data structure. If a operation takes ƒ(n)
 time in execution then m operations will take mƒ(n) time.
 
-• Best Case − This is the scenario depicting the least possible execution time of an operation of a data structure. If a operation takes
+• Best Case − This is the scenario depicting the least possible execution time of an operation of a data structure. If an operation takes
 ƒ(n) time in execution then actual operation may take time as random number which would be maximum as ƒ(n).
 
 ## Local Environment Setup
