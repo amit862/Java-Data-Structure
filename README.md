@@ -1,14 +1,14 @@
 # Data Structure
 
-Data Structure is a way to organized data in such a way that it can be used efficiently. 
+Data Structure is a way to organize data in such a way that it can be used efficiently. 
 ## 
 
 
 ![App Screenshot](https://media.geeksforgeeks.org/wp-content/uploads/20220520182504/ClassificationofDataStructure-660x347.jpg)
 
-Following terms are foundation terms of a data structure.
+The following terms are foundation terms of a data structure.
 
-• Interface − Each data strucure has an interface. Interface represents the set of operations that a datastructure supports.An interface
+• Interface − Each data structure has an interface. Interface represents the set of operations that a datastructure supports.An interface
 only provides the list of supported operations, type of parameters they can accept and return type of these operations.
 
 • Implementation − Implementation provides the internal representation of a data structure. Implementation also provides the defination
