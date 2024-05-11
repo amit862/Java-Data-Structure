@@ -78,7 +78,7 @@ Edit the 'C:\autoexec.bat' file and add the following line at the end:
 Environment variable PATH should be set to point to where the java binaries have been installed. Refer to your shell documentation if you
 have trouble doing this.
 
-Example, if you use bash as your shell, then you would add the following line to the end of your '.bashrc: export PATH=/path/to/java:$PATH'
+For example, if you use bash as your shell, then you would add the following line to the end of your '.bashrc: export PATH=/path/to/java:$PATH'
 
 #### Popular Java Editors
 To write your java programs you will need a text editor. There are even more sophisticated IDE available in the market. But for now, you can
