@@ -28,7 +28,7 @@ As applications are getting complex and data rich, there are three common proble
 • Data Search − Consider an inventory of 1 million(106
 ) items of a store. If application is to search an item. It has to search item in 1
 million(106
-) items every time slowing down the search. As data grows, search will become slower.
+) items every time slowing down the search. As data grows, the search will become slower.
 
 • Processor speed − Processor speed although being very high, falls limited if data grows to billon records.
 
