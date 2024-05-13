@@ -11,8 +11,8 @@ The following terms are foundation terms of a data structure.
 • Interface − Each data structure has an interface. The interface represents the set of operations that a data structure supports. An interface
 only provides the list of supported operations, the type of parameters they can accept, and the return type of these operations.
 
-• Implementation − Implementation provides the internal representation of a data structure. Implementation also provides the definition
-of the alogrithms used in the opreations of the data structure
+• Implementation − Implementation provides the internal representation of a data structure. The implementation also provides the definition
+of the algorithms used in the operations of the data structure
 
 
 ## Characteristics of a Data Structure
