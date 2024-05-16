@@ -12,7 +12,8 @@ public class sortedInAscending {
         }
 
         boolean isAscending = true;
-        // output
+        
+         // output
         for (int i = 0; i < numbers.length; i++) {
             if (numbers[i] > numbers[i + 1]) {
                 // this is condition for ascending
