@@ -20,6 +20,7 @@ public class BinaryTereeLOT { // T.C - O(n)
         }
     }
 
+
     static class BinaryTree {
         static int idx = -1;
 
