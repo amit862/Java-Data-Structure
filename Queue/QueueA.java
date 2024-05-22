@@ -27,6 +27,7 @@ public class QueueA {
         }
 
         // dequeue - O(n)
+
         public static int remove() {
             if (isEmpty()) {
                 System.out.println("empty queue");
