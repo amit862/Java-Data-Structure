@@ -37,6 +37,7 @@ public class BinaryTreeIT {
         if (root == null) {
             return;
         }
+
         inorder(root.left);
         System.out.print(root.data + " ");
         inorder(root.right);
