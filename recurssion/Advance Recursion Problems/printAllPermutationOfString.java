@@ -4,6 +4,7 @@ public class printAllPermutationOfString {
             System.out.println(permutation); //Time Complexity = O(n!)
             return;
         }
+
         for(int i=0; i<str.length(); i++){
             char currChar = str.charAt(i);
             //"abc" -> "ac" 
