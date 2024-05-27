@@ -17,6 +17,7 @@ public class DeleteANode {
             this.data = data;
 
         }
+
     }
 
     public static Node insert(Node root, int val) {
