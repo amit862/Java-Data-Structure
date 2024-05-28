@@ -1,4 +1,5 @@
 public class checkIfAnArraySorted {
+
     public static boolean isSorted(int arr[], int idx) {
 
         if (idx == arr.length - 1) {
