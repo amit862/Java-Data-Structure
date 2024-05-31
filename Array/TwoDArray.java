@@ -9,7 +9,6 @@ public class TwoDArray {
         int cols = sc.nextInt();
 
         int[][] numbers = new int[rows][cols];
-
         // input
         // row
         for (int i = 0; i < rows; i++) {
