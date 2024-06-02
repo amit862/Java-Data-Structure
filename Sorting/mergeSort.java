@@ -7,7 +7,7 @@ public class mergeSort {
         int idx1 = si;
         int idx2 = mid + 1;
         int x = 0;
-
+        
         // O(n)
         while (idx1 <= mid && idx2 <= ei) {
             if (arr[idx1] <= arr[idx2]) {
